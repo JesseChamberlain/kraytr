@@ -1,21 +1,25 @@
 # README
 
-This repository has all the code necessary for starting a React on Rails application
-including testing. To get started, just clone the repository down and get started using
-React on Rails like you normally would.
+This is the repository for the band Kraytr's website.
 
-## Areas in the Boilerplate to Update
-Be sure to search `boilerplate` within your project and update any references to
-boilerplate with the name of your application. If you do not follow this step, your
-application may not behave the way that you expect it to.
+## Technology
 
-## Ideas for Getting Started
-Potential places to start for a side project:
-* Find an API that interests you and display the information in an interesting way
-* Make a clone of a website that already exists
-* Make a game that users can play on a website
-* Extend an assignment that you've already done to add additional features
+The front end is built completely with React.js and utilizes React Router for a clean single page layout. Styling is primarily SASS with Foundation for responsive grid elements.
 
-No idea is too small, weird or insignificant to get started with. If you're interested
-in the project, you'll keep working on it and learn a lot about coding. Download the
-boilerplate, make those first commits and enjoy!
+### Stack
+* PostgreSQL
+* Ruby, 2.4.1
+* Rails, 5.1.2
+* React, 15.6.1
+* Foundation, 5.4.5
+* Node, 7.9.0
+
+### Libraries & Gems
+* React Router, 4.1.2
+
+### Testing
+* Jasmine & Enzyme
+* Capybara
+* Rspec
+* Factory Girl
+* Pry
