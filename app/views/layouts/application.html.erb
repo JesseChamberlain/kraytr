@@ -8,7 +8,9 @@
     <%= javascript_include_tag 'application' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class="backdrop">
+    <div class="medium-10 medium-centered columns">
+      <%= yield %>
+    </div>
   </body>
 </html>
